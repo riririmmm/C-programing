@@ -2,9 +2,9 @@
 
 int main() {
 	int a = 3;
-	char* ptr1 = &a;
+	int* ptr1 = &a;
 
-	char b = "b";
+	char b = 'b';
 	char* ptr2 = &b;
 
 	printf("%d\n", ptr1);
