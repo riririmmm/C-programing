@@ -9,7 +9,7 @@ void print_list(NODE* head)
 {
     NODE* p = head->next;
     while (p != NULL) {
-        printf("%d", p->data);
+        printf("%d ", p->data);
         p = p->next;
     }
     printf("\n");
